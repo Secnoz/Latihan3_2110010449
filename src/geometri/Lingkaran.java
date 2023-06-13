@@ -11,13 +11,13 @@ package geometri;
 class Lingkaran {
     double radius;
     
-    public double Luas(){
-        this.radius = 3.14 * radius * 2;
+    public double Luas1(){
+        this.radius = 3.14 * radius * radius;
         return 0;
     }
     
-    public double keliling(){
-        this.radius = 2 * 3.14 * radius;
+    public double keliling2(){
+        this.radius = radius * 3.14 * radius;
         return 0;
     }
 }
