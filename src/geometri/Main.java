@@ -10,14 +10,15 @@ package geometri;
  */
 public class Main {
     public static void main(String[] args) {
-        Lingkaran lingkaran1 = new Lingkaran();
-        //lingkaran1.Luas1() = 20.5;
-        double radius = 5;
-        double luas1 = lingkaran1.Luas1();
-        double keliling2 = lingkaran1.keliling2();
-        
-        System.out.println("Luas Lingkaran : " + luas1);
-        System.out.println("Keliling lingkaran :" + keliling2);
+        double radius = 5.0;
+
+        Lingkaran lingkaran = new Lingkaran(radius);
+
+        double luas1 = lingkaran.luas1();
+        double keliling1 = lingkaran.keliling1();
+
+        System.out.println("Luas Lingkaran: " + luas1);
+        System.out.println("Keliling Lingkaran: " + keliling1);
         
         
         double panjang = 5.0;

@@ -4,20 +4,18 @@
  */
 package geometri;
 
-/**
- *
- * @author ASUS
- */
-class Lingkaran {
-    double radius;
-    
-    public double Luas1(){
-        this.radius = 3.14 * radius * radius;
-        return 0;
+public class Lingkaran {
+    private double radius;
+
+    public Lingkaran(double radius) {
+        this.radius = radius;
     }
-    
-    public double keliling2(){
-        this.radius = radius * 3.14 * radius;
-        return 0;
+
+    public double luas1() {
+        return Math.PI * radius * radius;
+    }
+
+    public double keliling1() {
+        return 2 * Math.PI * radius;
     }
 }
